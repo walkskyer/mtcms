@@ -25,7 +25,7 @@ if($this->menupanel[0]==='content'):
 ?>
 <div region="west" split="true" title="内容管理" iconCls="icon-cash" style="width:185px;padding1:1px;overflow:hidden;">
 	<div class="easyui-accordion" fit="true" border="false">
-	
+
 		<div title="快捷菜单" <?php if($this->menupanel[1]==='short')echo "selected='true'";?>>
 			<ul class="vlist">
 			<?php if(Yii::app()->params['menuoption']['content']['article']){ ?>
