@@ -6,6 +6,7 @@
 	'focus'=>array($model,'title'),
 )); ?>
 <?php
+    $viewFlag=false;
 if($this->action->id==='view'){
 	$viewFlag=true;
 }
@@ -38,7 +39,7 @@ if($this->action->id==='view'){
 		<?php 
 			if(!empty($model->end_time))
 				$value=date('Y-m-d',$model->end_time);
-			echo $form->textField($model,'end_time',array('size'=>25,'value'=>$value,'onClick'=>"WdatePicker()")); ?>
+			echo $form->textField($model,'end_time',array('size'=>25,'value'=>isset($value)?$value:date('Y-m-d'),'onClick'=>"WdatePicker()")); ?>
 	</div>
 	
 	<?php 

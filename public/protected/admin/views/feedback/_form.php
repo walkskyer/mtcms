@@ -6,6 +6,7 @@
 	'focus'=>array($model,'title'),
 )); ?>
 <?php
+    $viewFlag=false;
 if($this->action->id==='view'){
 	$viewFlag=true;
 }
