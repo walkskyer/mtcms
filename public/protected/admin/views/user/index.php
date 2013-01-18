@@ -41,7 +41,7 @@ if((int)$dataProvider->totalItemCount===0){
     	'username',
     	array(
     		'name'=>'roleid',
-    		'value'=>'Yii::app()->params[role][$data->roleid]',
+    		'value'=>'Yii::app()->params["role"][$data->roleid]',
     		'htmlOptions'=>array(
     			'width'=>'70',
     			'align'=>'center',
