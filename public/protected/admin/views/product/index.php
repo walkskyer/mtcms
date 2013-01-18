@@ -43,14 +43,14 @@ if((int)$dataProvider->totalItemCount===0){
     			'align'=>'center',
     		),
     	),
-    	array(
+    	/*array(
     		'name'=>'bid',
     		'value'=>'$data->bcategory->title',
     		'htmlOptions'=>array(
     			'width'=>'80px',
     			'align'=>'center',
     		),
-    	),
+    	),*/
     	array(
     		'class'=>'CButtonColumn',
     		'header'=>'缩略图',
@@ -94,7 +94,7 @@ if((int)$dataProvider->totalItemCount===0){
     		'header'=>'操作',
     		'viewButtonUrl'=>'Yii::app()->controller->showViewUrl("product",$data)',
     		'viewButtonOptions'=>array('target'=>'_blank'),
-    		'updateButtonUrl'=>'Yii::app()->createUrl("product/update",array("id"=>isset($data->id)?$data->id:0,"menupanel"=>$_GET["menupanel],"cid"=>$_GET["cid"],"title"=>$_GET["title"]))',
+    		'updateButtonUrl'=>'Yii::app()->createUrl("product/update",array("id"=>isset($data->id)?$data->id:0,"menupanel"=>$_GET["menupanel"],"cid"=>$_GET["cid"],"title"=>$_GET["title"]))',
     	),
     ),
 ));

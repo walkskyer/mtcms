@@ -10,7 +10,7 @@ $frontend=dirname($backend);
 Yii::setPathOfAlias('backend',$backend);
 $frontendArray=require_once($frontend.'/config/main.php');
 $backendArray=array(
-	'name'=>'郑州旗人科技网站后台管理系统',
+	'name'=>'网站后台管理系统',
 	'basePath'=>$frontend,
     'viewPath'=>$backend.'/views',
 	'controllerPath'=>$backend.'/controllers',

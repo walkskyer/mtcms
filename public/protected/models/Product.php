@@ -73,7 +73,7 @@ class Product extends BaseModel
 		// class name for the relations automatically generated below.
 		return array(
             'category'=>array(self::BELONGS_TO, 'Category', 'cid'),
-            'bcategory'=>array(self::BELONGS_TO, 'Category', 'bid'),
+            //'bcategory'=>array(self::BELONGS_TO, 'Category', 'bid'),
         );
 	}
 
