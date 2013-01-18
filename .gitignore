@@ -1,0 +1,8 @@
+/.idea
+/.git
+/public/framework/*
+/public/assets/*
+/public/protected/runtime/*
+/public/protected/uploads/*
+/public/uploads/*
+!index.htm
