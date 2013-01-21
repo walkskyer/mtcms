@@ -2364,3 +2364,7 @@ in D:\xampp\htdocs\mtcms\public\admin.php (3)
 in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\LinkController.php (68)
 in D:\xampp\htdocs\mtcms\public\common.php (13)
 in D:\xampp\htdocs\mtcms\public\admin.php (3)
+2013/01/21 08:00:14 [warning] [application] Failed to set unsafe attribute "imagefile" of "Article".
+in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\ArticleController.php (71)
+in D:\xampp\htdocs\mtcms\public\common.php (13)
+in D:\xampp\htdocs\mtcms\public\admin.php (3)
