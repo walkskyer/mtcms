@@ -78,7 +78,7 @@ $topaid=Yii::app()->controller->action->id;
            	?>
                  <span><a href="<?php echo $vo->linkurl;?>" target="_blank" title="<?php echo $vo->title;?>"><?php echo $vo->title;?></a></span>
                  <?php endforeach;?>
-            		<span>申请友情链接 QQ:394730802</span>
+            		<span>申请友情链接 QQ:</span>
         	</div>
         </div>
     <?php else:?>

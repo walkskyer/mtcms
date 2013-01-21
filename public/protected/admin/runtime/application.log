@@ -2348,3 +2348,19 @@ REQUEST_URI=/admin.php/user/index/menupanel/usermanager%7Cuser%7Cuser_index
 in D:\xampp\htdocs\mtcms\public\protected\admin\views\user\index.php (87)
 in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\UserController.php (29)
 in D:\xampp\htdocs\mtcms\public\common.php (13)
+2013/01/21 07:30:14 [warning] [application] Failed to set unsafe attribute "id" of "Link".
+in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\LinkController.php (68)
+in D:\xampp\htdocs\mtcms\public\common.php (13)
+in D:\xampp\htdocs\mtcms\public\admin.php (3)
+2013/01/21 07:30:14 [warning] [application] Failed to set unsafe attribute "imagefile" of "Link".
+in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\LinkController.php (68)
+in D:\xampp\htdocs\mtcms\public\common.php (13)
+in D:\xampp\htdocs\mtcms\public\admin.php (3)
+2013/01/21 07:30:40 [warning] [application] Failed to set unsafe attribute "id" of "Link".
+in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\LinkController.php (68)
+in D:\xampp\htdocs\mtcms\public\common.php (13)
+in D:\xampp\htdocs\mtcms\public\admin.php (3)
+2013/01/21 07:30:40 [warning] [application] Failed to set unsafe attribute "imagefile" of "Link".
+in D:\xampp\htdocs\mtcms\public\protected\admin\controllers\LinkController.php (68)
+in D:\xampp\htdocs\mtcms\public\common.php (13)
+in D:\xampp\htdocs\mtcms\public\admin.php (3)
