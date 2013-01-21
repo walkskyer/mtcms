@@ -4,10 +4,10 @@
 		<div class="logo_admin"></div>
 		<div class="toolbar"></div>
 		<div id="menu">
-			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='content') echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'content'));?>">内容管理</button>
-			<button class="sexybutton sexysimple sexylarge sexygreen" url='<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'content|short|sitemap'));?>'>网站导航</button>
-			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='usermanager') echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'usermanager'));?>">用户管理</button>
-			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='optionmanager') echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'optionmanager'));?>">系统设置</button>
+			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='content') echo 'sexyorange';else echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'content'));?>">内容管理</button>
+			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='usermanager') echo 'sexyorange';else echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'usermanager'));?>">用户管理</button>
+			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='optionmanager') echo 'sexyorange';else echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'optionmanager'));?>">系统设置</button>
+            <button class="sexybutton sexysimple sexylarge sexygreen" url='<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'content|short|sitemap'));?>'>网站导航</button>
 			<button class="sexybutton sexysimple sexylarge" url="<?php echo Yii::app()->createUrl('site/logout');?>">退出系统</button>
 		</div>
 		<div id="technology">技术支持：<a href="http://www.baidu.com" target="_blank"><b>支持</b></a></div>
