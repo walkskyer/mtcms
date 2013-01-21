@@ -10,7 +10,7 @@
 			<button class="sexybutton sexysimple sexylarge <?php if($this->menupanel[0]=='optionmanager') echo 'sexymagenta';?>" url="<?php echo Yii::app()->createUrl('site/index',array('menupanel'=>'optionmanager'));?>">系统设置</button>
 			<button class="sexybutton sexysimple sexylarge" url="<?php echo Yii::app()->createUrl('site/logout');?>">退出系统</button>
 		</div>
-		<div id="technology">技术支持：<a href="http://www.hhfl.net" target="_blank"><b>郑州旗人科技</b></a></div>
+		<div id="technology">技术支持：<a href="http://www..net" target="_blank"><b>支持</b></a></div>
 	</div>
 </div>
 

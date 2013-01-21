@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/plugins/easyui/themes/default/easyui.css">
-		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/plugins/easyui/themes/icon.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/plugins/easyui-1.3.2/themes/bootstrap/easyui.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/plugins/easyui-1.3.2/themes/icon.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/plugins/SexyButtons/sexybuttons.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/resources/backend/backend.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASEURL;?>/css/form.css">
 		<?php 
 			  Yii::app()->clientScript->registerCoreScript('jquery');		 	 
-		 	  Yii::app()->clientScript->registerScriptFile(BASEURL.'/resources/plugins/easyui/jquery.easyui.min.js');
+		 	  Yii::app()->clientScript->registerScriptFile(BASEURL.'/resources/plugins/easyui-1.3.2/jquery.easyui.min.js');
   			  Yii::app()->clientScript->registerScriptFile(BASEURL.'/resources/backend/backend.js');
 		      Yii::app()->clientScript->registerScriptFile(BASEURL.'/resources/plugins/kindeditor/kindeditor-min.js');
 		?>
