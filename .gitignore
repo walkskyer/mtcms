@@ -5,4 +5,5 @@
 /public/protected/runtime/*
 /public/protected/uploads/*
 /public/uploads/*
+/public/protected/data/db_magnet.db
 !index.htm
